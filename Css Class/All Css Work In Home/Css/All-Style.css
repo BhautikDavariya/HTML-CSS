@@ -1,0 +1,615 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+#Backgroud_div{
+    margin: 0;
+    border: 2px solid black;
+    background-image: url('image/india.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    background-attachment: center center;
+    background-size: 100% 100%;
+    display: inline-block;
+
+}
+h1{
+    text-align: center; 
+}
+#Backgroud2_div1{
+    width: 445px;
+    height: 400px;
+    border: 2px solid black;
+    background-image: url('image/bo1.png'),
+    url('image/bo2.png');
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+    background-size: 50% 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+#Backgroud2_div2{
+    width: 445px;
+    height: 400px;
+    border: 2px solid black;
+    background-image: url('image/bo1.png'),
+    url('image/bo2.png');
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+    background-size: 50% 50%;
+    overflow: hidden;
+    display: inline-block;
+
+}
+#Backgroud2_div3{
+    width: 445px;
+    height: 400px;
+    border: 2px solid black;
+    background-image: url('image/bo1.png'),
+    url('image/bo2.png');
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+    background-size: 50% 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+/* border */
+div{
+    border: 3px solid black;
+}
+.Border1{
+    border: royalblue;
+    border-style: double;
+    border-width: 10px; /*4 baju lag che */
+}
+.Border2{
+    /* border: forestgreen; */
+    border-color: blue red;
+    border-style: groove;
+    border-width: 20px 20px; /*top - bottom and left - right lag che */
+}
+.Border3{
+    /* border: forestgreen; */
+    border-color: blue red green yellow;
+    border-style: groove;
+    border-width: 20px 10px 20px 10px; /*top pachi left pchi bottom  pchi left lag che */
+}
+.Border4{
+    /* khali top ma cheng karva mate  */ 
+    /* aajrite left bottom and right ne kari sako */
+    border: turquoise;
+    border-width: 10px;
+    border-style: groove;
+    border-top: fuchsia;
+    border-top-width: 20px;
+    border-top-style: double;
+}
+.Border5{
+    /* 4 baju oo ne round krva mate  */
+    border-color: green;
+    border-style: groove;
+    border-radius: 20px;
+    border-width: 10px;
+}
+.Border6{
+    /* round krva mate ane tema height tame % na aapi sako mate tamare heidht ne px ma aapvu pd che  */
+    height: 200px;
+    width: 200px;
+    border-color: green;
+    border-style: groove;
+    border-radius: 50%;
+    border-width: 10px;
+}
+.Border7{
+    vertical-align: middle;
+
+}
+.Border8{
+    border: green;
+    border-style: groove;
+    border-width: 10px;
+
+}
+
+.padding_p1{
+    border: hotpink;
+    border-style: groove;
+    border-width: 3px;
+    padding: 3%;
+}
+.Border9{
+    border: green;
+    border-style: groove;
+    border-width: 10px;
+}
+.Margin_p2{
+    border: hotpink;
+    border-style: groove;
+    border-width: 3px;
+    margin: 3%;
+}
+.Border10{
+    line-height: 50px;
+}
+.Border11{
+    text-indent: 50px;
+}
+.Border12{
+    letter-spacing: 50px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.Border13{
+    word-spacing: 50px;
+}
+.Border14{
+    white-space: pre;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.Border15{
+    white-space: nowrap;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.Border16{
+    word-wrap: break-word;
+}
+/* Text shadow */
+/* and link shadow */
+a{
+    text-decoration: none;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+}
+a:link{
+    color : green;
+}
+a:visited{
+    color : blueviolet;
+}
+a:hover{
+    color : brown;
+    font-size: 150px;
+}
+a:active{
+    color : teal;
+}
+h2{
+    text-align: center;
+}
+#text_shadow1{ 
+    border: 1px solid black;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 5px 10px 5px rgb(156, 51, 51);
+}
+#text_shadow2{
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid red;
+    writing-mode: vertical-lr;
+    /* writing-mode: vertical-rl; */
+} 
+/* font  */
+@font-face {
+    font-family: Lobster;
+    src: url('Fomt/Lobster-Regular.ttf');
+}
+#font_p{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+.font_p1{
+    font-size: 30px;
+    font-family: "Lobster";
+}
+.font_p2{
+    font: italic small-caps 600 20px "Lobster";
+}
+
+/* Css Units */
+.Units_div1{
+    font-size: 1cm;
+    border: 2px solid black;
+
+}
+.Units_div2{
+
+    font-size: 1in;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+/* Box Shadow  */
+
+.BoxShadow{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    border: 2px solid black;
+    box-shadow: 10px 10px red;
+}
+/* bahar ni shadow aapva mate */
+.BoxShadow1{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 15px 3px red;
+}
+/* bhar ni bane baju shadow aapva mate  */
+.BoxShadow2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 15px 3px orange, -10px -10px 15px 3px green;
+}
+.opacity{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    border: 2px solid black;
+    opacity: 0.5;
+}
+img{
+
+    height: 200px;
+    width: 200px;
+}
+#image_opacity :hover{
+    opacity: 0.5;
+}
+
+/* .i1{
+
+} */
+.i2{
+    filter: blur(4px);
+}
+.i3{
+    filter: brightness(0.30);
+}
+.i4{
+    filter: contrast(180%);
+}
+.i5{
+    filter: grayscale(100%);
+}
+.i6{
+    filter: hue-rotate(180deg);
+}
+.i7{
+    filter: invert(100%);
+}
+.i8{
+    filter: opacity(50%);
+}
+.i9{
+    filter: saturate(7);
+}
+.i10{
+    filter: sepia(100%);
+}
+.i11{
+    filter: drop-shadow(8px 8px 10px red);
+}
+
+/* image sprites */
+#image_sprites_div{
+    padding-left: 18%;
+}
+.sprites{
+    
+    height: 168px;
+    width: 168px;
+    background-image: url('image/so1.png');
+    /* background-repeat: no-repeat; */
+}
+#im1{
+
+    background-position: -61px -69px;
+}
+#im2{
+
+    background-position: -261px -69px
+}
+#im3{
+
+    background-position: -457px -69px;
+}
+#im4{
+
+    background-position: -660px -69px;
+}
+#im5{
+
+    background-position: -871px -69px;
+}
+
+/* Css gradient */
+
+#gradient_div1{
+    border: 2px solid blue;
+    background-image: linear-gradient(green , red);
+}
+#gradient_div2{
+    border: 2px solid blue;
+    background-image: linear-gradient(green , blue, orange);
+}
+#gradient_div3{
+    border: 2px solid blue;
+    background-image: linear-gradient(to right, green , blue, orange);
+}
+#gradient_div4{
+    border: 2px solid blue;
+    background-image: linear-gradient(to bottom, green , blue, orange);
+}
+#gradient_div5{
+    border: 2px solid blue;
+    background-image: linear-gradient(360 deg, green , blue, orange);
+}
+#gradient_div6{
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    /* background-image: radial-gradient(green , blue, orange); */
+    /* background-image: radial-gradient(green , blue); */
+    /* background-image: radial-gradient(circle, green , blue, orange); */
+    background-image: radial-gradient(green , blue, orange, red);
+}
+
+/* overflow */
+#overflow_div0{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    overflow: visible;
+}
+#overflow_div1{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+#overflow_div2{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+}
+#overflow_div3{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+}
+
+/* Resizable */
+#Resizable_div4{
+    background-color: aquamarine;
+    border: 2px solid black;
+    resize: both;
+}
+#Resizable_div5{
+    background-color: aquamarine;
+    border: 2px solid black;
+    resize: horizontal;
+}
+#Resizable_div6{
+    background-color: aquamarine;
+    border: 2px solid black;
+    resize: vertical;
+}
+#Resizable_div7{
+    background-color: aquamarine;
+    border: 2px solid black;
+    resize: none;
+}
+
+/* css list  */
+.css_ol{
+    list-style-type: upper-alpha;
+}
+.css_ul{
+    list-style-type: circle;
+}
+#list_image{
+    list-style-image: url('image/SMILE.png');
+}
+#list_boder li{
+    list-style-image: url('image/SMILE.png');
+    border: 1px solid black;
+    list-style-position: inside;
+}
+#list_boder2 li{
+    list-style-image: url('image/SMILE.png');
+    border: 1px solid black;
+    list-style-position: outside;
+}
+
+/* css table  */
+table{
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+    border-collapse: collapse;
+    border-spacing: 15px 25px;
+    table-layout: fixed;
+    empty-cells: hide;
+
+}
+caption{
+    border: 2px solid black;
+    caption-side: bottom;
+}
+tr{
+    border: 2px solid black;
+}
+th{
+    border: 2px solid black;
+
+}
+td{
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* Css Function  */
+.Function_div{
+    border: 3px solid black;
+    background-color: palegreen;
+    height: 200px;
+    width: calc(100% - 300px);
+    overflow: hidden;
+}
+:root{
+    --h2-color: white;
+    --background-color: black;
+    --taxt-color: white;
+}
+.Variable_h2{
+    margin: 0%;
+    color: var(--h2-color);
+    background-color: var(--background-color);
+    width: calc(100% - 200px);
+    border: 3px solid black;
+    text-align: center;
+}
+#Variable_div{
+    width: calc(100% - 200px);
+    color: var(--taxt-color);
+    background-color: var(--background-color);
+}
+#box_sizing
+{
+    border: 3px solid black;
+    background-color: palegreen;
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    /*width: calc(100% - 200px);*/
+    box-sizing: border-box;
+    overflow: scroll;
+}
+#ii{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    color: green;
+}
+#abd{
+    color: red;
+}
+.initial_a{
+    font-size: 15px;
+}
+#initial{
+    color: initial;
+}
+#inherit{
+    color: inherit;
+}
+
+/* Object-fit */
+.Object-fit_image{
+    margin-left: 27%;
+    border: 1px solid black;
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* pseudo-clas  */
+.pseudo-class_div1{
+    border: 2px solid red;
+    background-color: black;
+}
+.pseudo-class_p{
+    border: 2px solid yellow;
+}
+#pseudo-class_div :nth-child(even) {
+  color: red;
+}
+input:focus {
+    border: 4px solid red;
+}
+.pseudo-class_p::selection {
+    color: silver;
+}
+
+/* pseudo-elements */
+.pseudo-elements_h1{
+    text-align: center;
+    background-color: blueviolet;
+    margin: 0;
+    padding: 7px;
+}
+.pseudo-elements_h1::selection{
+    color: red;
+}
+.pseudo-elements_p::selection{
+    color: red;
+}
+.pseudo-elements_h1::after{
+    content: url('image/amzon.png');
+}
+.pseudo-elements_h1::before{
+    content: url('image/amzon.png');
+}
+.pseudo-elements_p{
+    border: 2px solid black;
+}
+.pseudo-elements_div{
+    border: 2px solid black;
+    background-color: palegreen;
+}
+
+/* Advance */
+.Advance-Css{
+    padding: 70px;
+    color: darkorange;
+    text-shadow: 5px 5px 5px black;
+    font-size: 50px;
+    background-color: brown;
+    height: 200px;
+}
+
+/* Display */
+.Display_div{
+    border: 2px solid black;
+}
+#Display_divid{
+    font-size: 40px;
+    padding-top: 70px;
+    height: 200px;
+    width: 330px;
+    text-align: center;
+    margin: 1px;
+}
+.Display_div1{
+    background-color: blueviolet;
+    display: inline-block;
+}
+.Display_div2{
+    background-color: cadetblue;
+    display: inline-block;
+    visibility: hidden; 
+}
+.Display_div3{
+    background-color: cornflowerblue;
+    display: inline-block;
+}
+.Display_div4{
+    background-color: cyan;
+    display: inline-block;
+}

@@ -1,0 +1,31 @@
+body{
+    margin: 50px;
+    padding: 50px;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: maroon;
+    color: #fff;
+    padding-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    /* transform: skew(20deg, 10deg); */
+    /* transform: skewx(20deg); */
+  /* transform: skewy(20deg); */
+    /* transform-origin: 0% 100%; */
+} 
+
+a:hover{
+    display: inline-block;
+    /* transform: translate(50px, 50px); */
+    /* transform: rotate(20deg); */
+    /* transform: scale(2, 3); */
+    /* transform: scalex(2); */
+    transform: scaley(2);
+}

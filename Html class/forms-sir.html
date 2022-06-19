@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>form example</title>
+		<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<form method="post" enctype="multipart/form-data">
+			<fieldset>
+				<legend>Basic Information</legend>
+			<div>
+				First Name:
+				<input type="text" name="F_name" value="" autofocus>
+			</div>
+			<br>
+			<div>
+				<label for="ema">Email id:</label>
+				<input type="email" name="Email" autocomplete="on" id="ema">
+			</div>
+			<br>
+			<div>
+				Date:
+				<input type="date" name="Date">
+			</div>
+			<br>
+			<div>
+				Colours:
+				<input type="color" name="color">
+			</div>
+			<br>
+			<div>
+				Number:
+				<input type="number" name="count" value="5" step="3">
+			</div>
+			<br>
+			<div>
+				Password:
+				<input type="password" minlength="6" maxlength="8">
+			</div>
+			<br>
+			<div>
+				Time:
+				<input type="time" name="Time">
+			</div>
+			<br>
+			<div>
+				Range:
+				<input type="range" min="50" max="55">
+			</div>
+			<br>
+			<div>
+				URL:
+				<input type="url" name="website">
+			</div>
+			<br>
+			<div>
+				Mobile Number:
+				<input type="tel" name="phone number" pattern="[0-9]{3}">
+			</div>
+			<br>
+			<div>
+				Search Fruit:
+				<input type="text" list="search">
+				<datalist id="search">
+					<option value="Mango">
+					<option value="Kiwi">
+					<option value="Apple">
+					<option value="Banana">
+					<option value="Orange">	
+				</datalist>
+			</div>
+			<br>
+			<!-- <div>
+					Select CAR:
+					<select name="CAR">
+						<option>BMW</option>
+						<option>TATA</option>
+						<option selected>Nano</option>
+				</select>
+			</div>
+			<br> -->
+			<div>
+				Select CAR:
+				<select>
+					<optgroup label="CAR">
+						<option>BMW</option>
+						<option>TATA</option>
+						<option>Nano</option>
+					</optgroup>
+					<optgroup label="Sports">
+						<option>Cricket</option>
+						<option>Hockey</option>
+						<option>Football</option>
+					</optgroup>
+				</select>
+			</div>
+			<br>
+			<div>
+				Gender:
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female" checked>Female
+				<input type="radio" name="gender" value="other">Other
+			</div>
+			<br>
+			<div>
+				Technology:
+				<input type="checkbox" name="Technology1" >Angular JS
+				<input type="checkbox" name="Technology2" checked>React JS
+				<input type="checkbox" name="Technology3" >Vue JS
+			</div>
+			<br>
+			<div>
+				Upload File:
+				<input type="file" multiple>
+			</div>
+			<br>
+			<div>
+				<textarea rows="5" cols="40" placeholder="enter discription here.."></textarea>
+			</div>
+			<div>
+				<input type="reset">
+				<!-- <input type="submit" value="SUBMIT FORM"> -->
+				<input type="image" src="images/submit.png" height="30px" width="60px">
+			</div>
+			</fieldset>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+body{
+background-image: url('images/gx3.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+background-position: center center;
+}
+/* header start */
+#header{
+height: 50px;
+width: 100%;
+}
+.table{
+height: 50px;
+width: 100%;
+}
+.Logo{
+height:80px;
+width:80px;
+float: left;
+}
+.Hlink{
+position: relative;
+float: right;
+margin-top: 20px;
+padding: 10px;
+color:white
+}
+/* header finish */
+h1{
+text-align: center;
+color:white
+}
+h2{
+text-align: center;
+color:white
+}
+#video{
+height:600px;
+width:100%;
+}
+h3{
+text-align: center;
+color:white
+}
+p{
+height: 360px;
+color:white;
+height: 12cm;
+/*font-variant: small-caps;*/
+font-family: system-ui;
+/*font-weight: bold;*/
+/*color: tan;*/
+}
+.limage{
+float: left;
+height: 360px;
+width: 480px;
+}
+.Rimage{
+float: right;
+height: 360px;
+width: 480px;
+}
+.footer{
+width:100%;
+color: white;
+background: blue;
+margin-top: 3%;
+border: 2px solid red;
+}
+/*ContactUs Form */
+.formdiv{
+margin-left: 36%;
+margin-right: 36%;
+}
+.formdiv2{
+background-color: white;
+}
+#ContactUs{
+text-align: center;
+font-family: unset;
+color: white;
+}
+form{
+font-family: Arial,sans-serif;
+font-size: 13px;
+border-style: initial;
+border-color: white;
+padding-left: 45px;
+padding-top: 35px;
+padding-bottom: 35px;
+}
+/*ContactUs Form  and */
+:root {
+    --color-color: red;
+}

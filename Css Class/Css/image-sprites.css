@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+div{
+    padding-left: 18%;
+    
+}
+.sprites{
+
+    height: 168px;
+    width: 168px;
+    background-image: url('image/so1.png');
+    /* background-repeat: no-repeat; */
+}
+#im1{
+
+    background-position: -61px -69px;
+}
+#im2{
+
+    background-position: -261px -69px
+}
+#im3{
+
+    background-position: -457px -69px;
+}
+#im4{
+
+    background-position: -660px -69px;
+}
+#im5{
+
+    background-position: -871px -69px;
+}

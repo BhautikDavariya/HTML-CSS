@@ -1,0 +1,98 @@
+h2{
+    text-align: center;
+}
+div{
+    border: 2px solid red;
+}
+.div2{
+    border: royalblue;
+    border-style: double;
+    border-width: 10px; /*4 baju lag che */
+}
+.div3{
+    /* border: forestgreen; */
+    border-color: blue red;
+    border-style: groove;
+    border-width: 20px 20px; /*top - bottom and left - right lag che */
+}
+.div4{
+    /* border: forestgreen; */
+    border-color: blue red green yellow;
+    border-style: groove;
+    border-width: 20px 10px 20px 10px; /*top pachi left pchi bottom  pchi left lag che */
+}
+.div5{
+    /* khali top ma cheng karva mate  */ 
+    /* aajrite left bottom and right ne kari sako */
+    border: turquoise;
+    border-width: 10px;
+    border-style: groove;
+    border-top: fuchsia;
+    border-top-width: 20px;
+    border-top-style: double;
+}
+.div6{
+    /* 4 baju oo ne round krva mate  */
+    border-color: green;
+    border-style: groove;
+    border-radius: 20px;
+    border-width: 10px;
+}
+.div7{
+    /* round krva mate ane tema height tame % na aapi sako mate tamare heidht ne px ma aapvu pd che  */
+    height: 200px;
+    width: 200px;
+    border-color: green;
+    border-style: groove;
+    border-radius: 50%;
+    border-width: 10px;
+}
+.div8{
+    vertical-align: middle;
+
+}
+.div9{
+    border: green;
+    border-style: groove;
+    border-width: 10px;
+
+}
+
+.p1{
+    border: hotpink;
+    border-style: groove;
+    border-width: 3px;
+    padding: 3%;
+}
+.div10{
+    border: green;
+    border-style: groove;
+    border-width: 10px;
+}
+.p2{
+    border: hotpink;
+    border-style: groove;
+    border-width: 3px;
+    margin: 3%;
+}
+.div11{
+    line-height: 50px;
+}
+.div12{
+    text-indent: 50px;
+}
+.div13{
+    letter-spacing: 50px;
+}
+.div14{
+    word-spacing: 50px;
+}
+.div15{
+    white-space: pre;
+}
+.div16{
+    white-space: nowrap;
+}
+.div17{
+    word-wrap: break-word;
+}

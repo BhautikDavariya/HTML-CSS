@@ -1,0 +1,53 @@
+/* elament css */
+p{
+ border: 3px solid black;
+}
+/* id css */
+#h2{
+    color: aqua;
+}
+/* clss css */
+.h3{
+    color: chocolate;
+}
+h2{
+    text-align: center;
+}
+/* rgb color */
+.h4{
+    color: rgb(0, 0, 204);
+}
+/* rgba color */
+.h5
+{
+    color: rgba(0, 0, 204, 0.0); /*And 1.0*/
+}
+/* Hex color */
+.h6 
+{
+    color: #0000cc;
+}
+/* hsl color */
+.h7{
+    color: hsl(358, 28%, 41%);
+}
+/* background css */
+#bg{
+    padding: 2%;
+    color: ivory;
+    background-image: url('image/cs1.jpg');  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#bg2{
+    padding: 2%;
+    color: red;
+    background-image: url('image/bo1.png'),
+    url('image/bo2.png');
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+    background-size: 50% 50%;
+}
+

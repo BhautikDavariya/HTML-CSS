@@ -1,0 +1,32 @@
+#div1{
+    border: 2px solid blue;
+    background-image: linear-gradient(green , red);
+}
+#div2{
+    border: 2px solid blue;
+    background-image: linear-gradient(green , blue, orange);
+}
+#div3{
+    border: 2px solid blue;
+    background-image: linear-gradient(to right, green , blue, orange);
+}
+#div4{
+    border: 2px solid blue;
+    background-image: linear-gradient(to bottom, green , blue, orange);
+}
+#div5{
+    border: 2px solid blue;
+    background-image: linear-gradient(360 deg, green , blue, orange);
+}
+h1{
+    text-align: center;
+}
+#div6{
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    /* background-image: radial-gradient(green , blue, orange); */
+    /* background-image: radial-gradient(green , blue); */
+    /* background-image: radial-gradient(circle, green , blue, orange); */
+    background-image: radial-gradient(green , blue, orange, red);
+}

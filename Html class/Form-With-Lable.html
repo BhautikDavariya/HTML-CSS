@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Forms with lable</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<form action="" method="post" accept-charset="utf-8"><fieldset>
+		<legend>Basic Forms</legend>
+		<div>
+			<label for="fname">First Name :</label> 
+			<input type="text" name="f_name" id="fname" value="bahtuk" disabled>
+		</div>
+		<br>
+		<div>
+			<label for="lname">last Name :</label>
+			<input type="text" name="l_name" id="lname" value="bahutik">
+		</div>
+		<br>
+		<div>
+			<label for="Eid">Emai Id :</label>
+			<input type="Emai" name="email" id="Eid" placeholder="Your Email" required>
+		</div>
+		<br>
+		<div>
+			<label for="Pn">Phone Nu :</label>
+			<input type="tel" name="p_number" id="Pn" pattern="[0-9]{10}">
+		</div>
+		<br>
+		<div>
+			<label for="Pss">Password :</label>
+			<input type="Password" name="p_number" id="Pss">
+		</div>
+		<br>
+			<div>
+				<label for="Dt">Date :</label>
+				<input type="date" name="Date" id="Dt">
+			</div>
+			<br>
+			<div>
+				<label for="Tm">Time :</label>
+				<input type="time" name="Time" id="Tm">
+			</div>
+			<br>
+			<div>
+				<label for="Nm">Number :</label>
+				<input type="number" name="count" step="3" min="0" max="10" id="Nm">
+			</div>
+			<br>
+		<div>
+			<label for="Url">Url :</label>
+			<input type="Url" name="Url" id="Url" placeholder="Your WebSite">
+		</div>
+		<br>
+			<div>
+				<label for="color">Colour :</label>
+				<input type="color" name="color" id="color">
+			</div>
+			<br>
+			<div>
+				<label for="Range">Range :</label>
+				<input type="Range" name="Range" id="Range">
+			</div>
+			<br>
+			<div>
+				<label for="Sh">Search Car :</label>
+				<input type="text" list="search" id="Sh">
+				<datalist id="search">
+					<option value="BMW">
+					<option value="Aodi">
+					<option value="Toyota">
+					<option value="Daimler">
+					<option value="Ford Motor">	
+				</datalist>
+			</div>
+			<br>
+			<label for="Sl">Cars :</label>
+			<select id="Sl">
+				<option>BMW</option>
+				<option>Aodi</option>
+				<option selected>Toyota</option>
+				<option>Daimler</option>
+			</select>
+			<br>
+			<br>
+			<label for="SlG">Cars :</label>
+			<SELECT id="SlG">
+				<optgroup label="car">
+				<option>BMW</option>
+				<option>Toyota</option>
+				<option>Daimler</option>
+			</optgroup>
+			<optgroup label="car">
+				<option>BMW</option>
+				<option>Toyota</option>
+				<option>Daimler</option>
+			</optgroup>
+			</SELECT>
+			<br><br>
+			<input type="radio" name="Gender" value="Male">Male
+			<input type="radio" name="Gender" value="feMale" checked>FeMale
+			<input type="radio" name="Gender" value="Other">Other
+			<br><br>
+			<input type="checkbox" name="Car">BMW
+			<input type="checkbox" name="Car">Toyota
+			<input type="checkbox" name="Car" checked>Daimler
+			<br><br>
+			<label for="fil">File :</label>
+			<input type="File" name="file" multiple id="fil">
+			<br><br>
+			<div>
+				<textarea rows="5" cols="40" placeholder="enter discription here.."></textarea>
+			</div>
+			<br>
+			<input type="reset" name="reset">
+		<input type="submit" name="submit"></fieldset>
+	</form>
+</body>
+</html>

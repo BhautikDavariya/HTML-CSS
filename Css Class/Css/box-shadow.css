@@ -1,0 +1,75 @@
+.BoxShadow{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    border: 2px solid black;
+    box-shadow: 10px 10px red;
+}
+/* bahar ni shadow aapva mate */
+.BoxShadow1{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 15px 3px red;
+}
+/* bhar ni bane baju shadow aapva mate  */
+.BoxShadow2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 15px 3px orange, -10px -10px 15px 3px green;
+}
+h1{
+    text-align: center;
+}
+.opacity{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    border: 2px solid black;
+    opacity: 0.5;
+}
+img{
+
+    height: 200px;
+    width: 200px;
+}
+img:hover{
+    opacity: 0.5;
+}
+/* .i1{
+
+} */
+.i2{
+    filter: blur(4px);
+}
+.i3{
+    filter: brightness(0.30);
+}
+.i4{
+    filter: contrast(180%);
+}
+.i5{
+    filter: grayscale(100%);
+}
+.i6{
+    filter: hue-rotate(180deg);
+}
+.i7{
+    filter: invert(100%);
+}
+.i8{
+    filter: opacity(50%);
+}
+.i9{
+    filter: saturate(7);
+}
+.i10{
+    filter: sepia(100%);
+}
+.i11{
+    filter: drop-shadow(8px 8px 10px red);
+}
+

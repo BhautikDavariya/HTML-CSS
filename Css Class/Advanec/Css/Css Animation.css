@@ -1,0 +1,43 @@
+@keyframes changcolor {
+    0%{background-color : springgreen; top: 0px; left: 0px;}
+    25%{background-color : blue; top: 0px; left: 400px;}
+    50%{background-color : yellow; top: 400px; left: 400px;}
+    70%{background-color : green; top: 400px; left: 0px;}
+    100%{background-color : red; top: 0px; left: 0px;}
+}
+
+div{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.div1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: springgreen;
+    border-radius: 50%;
+    animation-name: changcolor;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+.div2{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.div3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: springgreen;
+    border-radius: 50%;
+    animation-name: changcolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

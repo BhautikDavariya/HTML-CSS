@@ -1,0 +1,40 @@
+#main_div{
+    height: 800px;
+    background-color: black;
+    padding-top: 50px;
+    /* margin-left: 50%; */
+    position: relative;
+    padding-left: 900px;
+}
+#div1{
+    
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    display: inline-block;
+    z-index: 3;
+    position: absolute;
+    
+    
+}
+#div2{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    height: 600px;
+
+
+}
+#div3{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-color: green;
+    z-index: 1;
+    position: absolute;
+    height: 700px;
+
+}

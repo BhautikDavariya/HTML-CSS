@@ -1,0 +1,18 @@
+div{
+    border: 3px solid black;
+}
+p{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+@font-face {
+    font-family: Lobster;
+    src: url('Fomt/Lobster-Regular.ttf');
+}
+.p1{
+    font-size: 30px;
+    font-family: "Lobster";
+}
+.p2{
+    font: italic small-caps 600 20px "Lobster";
+}

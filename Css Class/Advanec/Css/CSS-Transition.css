@@ -1,0 +1,13 @@
+div{
+    border: 5px dotted red;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 100px;
+    transition-property: width;
+    transition-duration: 5s;
+}
+div:hover{
+    /* height: 300px; */
+    width: 200px;
+}

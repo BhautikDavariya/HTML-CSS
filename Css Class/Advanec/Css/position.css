@@ -1,0 +1,119 @@
+body{
+    position: relative;
+}
+#main_div{
+    height: 200px;
+    background-color: black;
+    padding-top: 50px;
+    /* margin-left: 50%; */
+    padding-left: 300px;
+}
+#main_div1{
+    height: 600px;
+    background-color: grey;
+    padding-top: 50px;
+    /* margin-left: 50%; */
+    padding-left: 900px;
+}
+#main_div2{
+    height: 600px;
+    background-color: fuchsia;
+    padding-top: 50px;
+    /* margin-left: 50%; */
+    padding-left: 900px;
+}
+#main_div3{
+    height: 600px;
+    background-color: darkgoldenrod;
+    padding-top: 50px;
+    /* margin-left: 50%; */
+    padding-left: 900px;
+}
+#div1{
+    
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: inline-block;
+    
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: blue;
+    position: static;
+}
+#div3{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: green;
+}
+#div4{
+    
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    display: inline-block;
+    
+}
+#div5{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#div6{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-color: green;
+}#div7{
+    
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    display: inline-block;
+}
+#div8{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-color: blue;
+    position: absolute;
+    /* top: 20px;
+    left: 20px; */
+
+}
+#div9{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-color: green;
+}#div10{
+    
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    display: inline-block;
+    
+}
+#div11{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-color: blue;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+#div12{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-color: green;
+}

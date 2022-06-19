@@ -1,0 +1,26 @@
+<div id="logo_div">
+            <a href=""><img class="logo" src="images/logo1.jpg" alt="" srcset="" height="38px" width="38px"></a>
+        </div>
+
+        <div id="manu_start">
+            <ul id="main_manu">
+                <li class="Manu_br"><a href="">Demo Pages</a></li>
+                <li class="Manu_br"><a href="">Watch Video</a></li>
+                <li class="Manu_br"><a href="">Blocks</a></li>
+            </ul>
+        </div>
+
+        <div id="buy_button">
+            <a href="" class="buy_name" type="button">BUY NOW</a>
+        </div>
+    </header>
+
+    <!-- section 1 start -->
+    <section id="section_one_start">
+        <div id="hed_sec">
+            <h1>Vegan Store Simple Website Template</h1>
+            <p>With nutrition, all the vital functions of the body car connected. it is the soutce of the development of
+                tissues and cells. their constant renewal the saturation of man with energy</p>
+        </div>
+    </section>
+    <!-- section 1 And -->

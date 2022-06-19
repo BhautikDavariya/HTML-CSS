@@ -1,0 +1,51 @@
+div{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    overflow: visible;
+}
+#div1{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+#div2{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+}
+#div3{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+}
+h1{
+    text-align: center;
+}
+#div4{
+    background-color: aquamarine;
+    border: 2px solid black;
+    resize: both;
+}
+#div5{
+    background-color: aquamarine;
+    border: 2px solid black;
+    resize: horizontal;
+}
+#div6{
+    background-color: aquamarine;
+    border: 2px solid black;
+    resize: vertical;
+}
+#div7{
+    background-color: aquamarine;
+    border: 2px solid black;
+    resize: none;
+}

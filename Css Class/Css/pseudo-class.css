@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+.div1{
+    border: 2px solid red;
+    background-color: black;
+}
+p{
+    border: 2px solid yellow;
+}
+div :nth-child(even) {
+  color: red;
+}
+input :focus {
+    border: 4px solid blue;
+}
+p::selection {
+    color: silver;
+}

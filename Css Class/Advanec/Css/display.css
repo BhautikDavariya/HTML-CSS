@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+.Display_div{
+    border: 2px solid black;
+}
+#Display_divid{
+    font-size: 40px;
+    padding-top: 70px;
+    height: 200px;
+    width: 330px;
+    text-align: center;
+}
+.Display_div1{
+    background-color: blueviolet;
+    display: inline-block;
+}
+.Display_div2{
+    background-color: cadetblue;
+    display: inline-block;
+    visibility: hidden; 
+}
+.Display_div3{
+    background-color: cornflowerblue;
+    display: inline-block;
+}
+.Display_div4{
+    background-color: cyan;
+    display: inline-block;
+}

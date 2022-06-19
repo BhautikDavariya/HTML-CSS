@@ -1,0 +1,34 @@
+div{
+    width: 100%;
+    /* background-color: yellowgreen; */
+
+}
+ul{
+    background-color: rgb(135, 163, 79);
+    list-style-type: none;
+    overflow: auto;
+    padding-left: 80%;
+}
+li{
+    padding: 10px 20px;
+    font-size: 50px;
+    font-weight: 200;
+    float: left;
+
+}
+#Div1{
+    background-color: blueviolet;
+    width: 70%;
+    height: 700px;
+    float: left;
+}
+#Div2{
+    background-color: chocolate;
+    width: 30%;
+    height: 600px;
+    float: left;
+    /* clear: both; */
+}
+#cl{
+    clear: both;
+}

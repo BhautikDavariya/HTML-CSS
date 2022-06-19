@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+ul{
+    list-style-type: circle;
+}
+#list_image{
+    list-style-image: url('image/SMILE.png');
+}
+#list_boder li{
+    list-style-image: url('image/SMILE.png');
+    border: 1px solid black;
+    list-style-position: inside;
+}
+#list_boder2 li{
+    list-style-image: url('image/SMILE.png');
+    border: 1px solid black;
+    list-style-position: outside;
+}

@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+img{
+    margin-left: 27%;
+    border: 1px solid black;
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    
+
+}

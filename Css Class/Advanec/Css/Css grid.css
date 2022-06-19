@@ -1,0 +1,45 @@
+#css_grid{
+    text-align: center;
+    background-color: brown;
+    padding: 20px;
+    /* height: 50vh; */
+    /* width: 100vh; */
+    display: flex;
+    /* display: inline-grid; */
+    display: grid;
+    /* flex-wrap: wrap; */
+    
+    
+
+
+    /* grid-template-columns: auto 200px 50%; */
+    grid-template-rows: 100px 100px auto;
+    /* grid-column-gap: 30px; */
+    grid-row-gap: 20px;
+
+
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+
+    /* align-content: center; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid-item{
+    margin: 5px;
+    padding: 10px;
+    height: 10px;
+    width: 100px;
+    background-color: chartreuse;
+}

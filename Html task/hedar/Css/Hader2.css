@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.hader{
+    /* border: 2px  solid blue; */
+    height: 100px;
+    width: calc(100% - 0px);
+    background-color: plum;
+
+}
+.logo{
+    width: 90px;
+    height: 100px;
+
+}
+a{
+    text-decoration: none;
+}
+.H_image{
+    background-color: goldenrod;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 20px;
+    /* border: 2px  solid  blue; */
+    height: 105px;
+    display: inline-block;
+
+}
+.Hname{
+    padding: 40px;
+    float: right;
+    text-align: center;
+    /* border: 2px  solid rgb(0, 255, 21); */
+}
+.imf{
+    height: 100%;
+    width: 100%;
+}
+.hader2{
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: calc(100% - 0px);
+    
+}
+.I_LOGO{
+    margin: 0;
+    /* border: 2px solid black; */
+    display: inline-block;
+}
+.H_SPAN{
+    margin-top: 40px;
+    /* padding: 40px; */
+    float: right;
+    /* border: 2px solid blue; */
+    /* display: inline-block; */
+}
+.name{
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px;
+}
+.hader3{
+    /* border: 1px solid red; */
+    width: calc(100% - 0px);
+}
+.I_LOGO2{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: calc(100% - 0px);
+}
+.name1{
+    /* border: 1px solid red; */
+    float: right;
+    padding: 30px;
+    font-size: 30px;
+}
+.logo_2{
+    /* border: 1px solid red; */
+    height: 100PX;
+    width: 100PX;
+    /* width: calc(100px - 0px); */
+
+}
